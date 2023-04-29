@@ -1,0 +1,25 @@
+.footer {
+  background-color: #222;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.item {
+  height: 2em;
+  width: 3em;
+  color: #808080;
+  margin-top: 1em;
+}
+
+.footer p {
+  color: #fff;
+  padding-right: 2em;
+}

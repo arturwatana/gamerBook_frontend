@@ -1,0 +1,31 @@
+.firstPhoto {
+  height: 250px;
+  width: 700px;
+  margin-right: 3em;
+}
+.secondPhoto {
+  height: 450px;
+  width: 500px;
+  background-color: blue;
+}
+
+.firstPhoto h2 {
+  text-align: center;
+  padding: 0.5em;
+  color: #2f2f2f;
+}
+
+.firstPhoto p {
+  font-size: 18px;
+  color: #2f2f2f;
+}
+
+.firstPhoto img {
+  width: 700px;
+  height: 250px;
+}
+
+.secondPhoto img {
+  height: 450px;
+  width: 500px;
+}

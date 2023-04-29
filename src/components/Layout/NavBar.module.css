@@ -1,0 +1,37 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #222;
+  padding: 1em;
+}
+
+.nav img {
+  max-width: 13em;
+  margin-left: 10em;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  align-items: end;
+  width: 20em;
+  margin: 0 6em 1em 0;
+  justify-content: space-between;
+  transition: 0.5s;
+}
+
+.item a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #fffef3;
+}
+
+.nav h1 {
+  color: #fff;
+  margin: auto;
+  font-size: 35px;
+}
+
+.item a:hover {
+  color: #9d9746;
+}
