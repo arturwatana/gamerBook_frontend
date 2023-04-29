@@ -8,6 +8,7 @@ import ContactPage from "./components/pages/ContactPage";
 import AboutPage from "./components/pages/AboutPage";
 import Container from "./components/Layout/Container";
 import Footer from "./components/Layout/Footer";
+import LoginPage from "./components/pages/LoginPage";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Route path="/games" element={<GamesPage />}></Route>
             <Route path="/contact" element={<ContactPage />}></Route>
             <Route path="/about" element={<AboutPage />}></Route>
+            <Route path="/login" element={<LoginPage />}></Route>
           </Routes>
         </Container>
         <Footer />
