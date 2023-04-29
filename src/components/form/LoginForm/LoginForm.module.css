@@ -1,0 +1,18 @@
+.headerForm {
+  font-size: 30px;
+  text-align: center;
+  color: #222;
+}
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5em;
+}
+
+.loginForm input {
+  margin-top: 0.3em;
+}
+
+.loginForm p {
+  margin-top: 1em;
+}

@@ -1,0 +1,19 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5em;
+}
+
+.form input {
+  margin-top: 0.3em;
+}
+
+.headerForm {
+  font-size: 30px;
+  text-align: center;
+  color: #222;
+}
+
+.form p {
+  margin-top: 1em;
+}
